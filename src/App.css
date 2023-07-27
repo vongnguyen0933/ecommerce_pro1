@@ -288,7 +288,7 @@ color: var(--color-131921);
 }
 .product-card .product-detail p.price{
   font-size: 16px;
-  color: var(--color-1c1c1b);
+  color: var(--color-1c1c1b) !important;
 }
 .action-bar{
   top: 10%;
@@ -300,4 +300,67 @@ color: var(--color-131921);
   right: 5%;
 }
 
+
 /* Product Card Ends */
+
+/* Special Product */
+.special-product-card{
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.special-product-card .badge{
+  /* background-color: #fc353c00 !important; */
+}
+
+/* Special Product Ends */
+
+
+/* Our Store */
+.filter-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.filter-title{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+.filter-card ul,
+.filter-card .form-check-label{
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+
+.filter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.filter-card .form-check-input:checked{
+  background-color: var(--color-febd69);
+
+}
+.sub-title{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+}
+
+.random-products h5{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.random-products:first-child{
+  border-bottom: 1px solid var(--color-ededed);
+  margin-bottom: 10px;
+}
+/* Our Store Ends */
