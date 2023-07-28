@@ -179,8 +179,6 @@ const Home = () => {
                         </div>
                         <ProductCard />
                         <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
                     </div>
                 </div>
             </section>
@@ -201,19 +199,19 @@ const Home = () => {
                 </div>
             </section> */}
             <section className="special-wrapper py-5">
-                    <div className="container-xxl">
-                        <div className="row">
-                            <div className="col-12">
-                                <h3 className="section-heading">Special Products</h3>
-                            </div>
-                        </div>
-                        <div className="row ">
-                            <SpecialProduct/>
-                            <SpecialProduct/>
-                            <SpecialProduct/>
-                            <SpecialProduct/>
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <h3 className="section-heading">Special Products</h3>
                         </div>
                     </div>
+                    <div className="row ">
+                        <SpecialProduct />
+                        <SpecialProduct />
+                        <SpecialProduct />
+                        <SpecialProduct />
+                    </div>
+                </div>
             </section>
             <section className="popular-wrapper home-wrapper-2 py-5">
                 <div className="container-xxl">
@@ -223,7 +221,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="row">
-                    <ProductCard />
+                        <ProductCard />
                         <ProductCard />
                         <ProductCard />
                         <ProductCard />

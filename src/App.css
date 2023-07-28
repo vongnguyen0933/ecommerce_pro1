@@ -287,10 +287,16 @@ color: var(--color-131921);
   font-size: 15px;
   color: var(--color-1c1c1b);
 }
+.product-card p.description{
+  font-size: 13px;
+  color: var(--color-777777);
+  margin-right: 24px;
+}
 .product-card .product-detail p.price{
   font-size: 16px;
   color: var(--color-1c1c1b) !important;
 }
+
 .action-bar{
   top: 10%;
   right: -23px;
@@ -397,5 +403,19 @@ color: var(--color-131921);
 }
 .gr-12 .product-card .product-img{
   width: 270px;
+  height: auto;
 }
+.gr-12 .action-bar{
+  top: 13%;
+}
+.gr-6 .product-img{
+  width: 100%;
+}
+
+.gr-6 .product-img img{
+  margin: auto;
+  display: block;
+}
+
+
 /* Our Store Ends */
